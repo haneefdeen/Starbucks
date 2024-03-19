@@ -1,2 +1,2 @@
 # Starbucks 
-https://starbuckssclone.netlify.app/
+https://starbuckcoffee.netlify.app/

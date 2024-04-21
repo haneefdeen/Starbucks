@@ -7,6 +7,9 @@
    
   
 }
+.topnav li button{
+    cursor: pointer;
+}
 nav img{
     width: 100px;
     margin-right: 100px;
@@ -27,10 +30,7 @@ nav{
 }
 
 
-.end{
-    max-width:1170px
-    
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,8 @@ nav{
     
 }
 .footer{
-    padding: 70px 0px;
+    padding: 80px;
+   background-color: beige;
     
     
 }
@@ -51,9 +52,21 @@ nav{
     padding: 0 15px;
     justify-content: space-evenly;
     margin-left: 50px;
+    cursor:  pointer;
+    
 }
 .col1 h4{
     font-size: 20px;
     margin-bottom: px;
+    text-align: center;
 
+}
+.logos img{
+    justify-content: space-between;
+    padding: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.terms{
+    cursor: pointer;
 }

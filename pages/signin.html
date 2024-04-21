@@ -4,18 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika" rel="stylesheet">
 </head>
+<style>
+h2{
+    text-align: center;
+    padding: 60px;
+}
+.signin{
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 10px;
+     padding: 50px;
+     margin-left: 30%;
+     margin-right: 30%;
+     border-color: rgba(169, 169, 169, 1);
+    
+   
+
+}
+input[type=text],input[type=password]{
+    width: 300px;
+    border-radius: 5px;
+}
+.signinbutton{
+    background-color: rgba(0, 98, 65, 1);
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 87px;
+    height: 36px;
+
+}
+</style>
 <body>
     <div class="topnav">
         <nav>
             
            
             <ul>
-                <li><img src="assets/images/starbuckslogo.jpeg"></li>
+                <li><img src="../assets/images/starbuckslogo.jpeg"></li>
                 <li>MENU</li>
-                <li>REWARDS</li>
-                <li>OUR COMPANY</li>
+                <li>DELIVERY</li>
+                <li>COMPANY</li>
                 
             
                 <li>Find a Store</li>
@@ -28,5 +62,81 @@
       
     </div>
         <hr>
+        <h2>Sign in or create an account</h2>
+        <div class="signin">
+            <form>
+                <center>
+            <label>*indicates required field</label><br><br>
+            <input type="text" placeholder="*Username or Email address"><br><br>
+            <input type="password" placeholder="*Password"><br><br>
+            <input type="checkbox"><label>Keep me signed in.<a href="#" style="color: rgba(0, 98, 65, 1);">Details</a></label><br><br>
+            <a href="#" style="color: rgba(0, 98, 65, 1);">Forgot your username?</a><br>
+            <a href="#" style="color: rgba(0, 98, 65, 1);">Forgot your Password?</a>
+            <br><br>
+        <button class="signinbutton">Sign in</button>
+        </center>
+       
+        </div>
+        <br><br>
+        <div class="footer">
+          <div class="row">
+            <div class="col1">
+              <h4>About us</h4>
+              <ul>
+                <li>Our Company</li>
+                <li>Our coffee</li>
+                <li>Stories and News</li>
+                <li>Starbucks Archieve</li>
+              </ul>
+            </div>
+            <div class="col1">
+              <h4>Careers</h4>
+              <ul>
+                <li>Culture and Values</li>
+                <li>College Achievement Plan</li>
+                <li>Alumini Community</li>
+                <li>U.S Careers</li>
+              </ul>
+              </div>
+              <div class="col1">
+                <h4>Social Impact</h4>
+                <ul>
+                  <li>People</li>
+                  <li>Planet</li>
+                 
+                  
+                </ul></div>
+                
+                  <div class="col1">
+                    <h4>Order and Pickup</h4>
+                    <ul>
+                      <li><a href="../Starbucks/pages/orderonapp.html"> Order on the App</a></li> 
+                      <li>Order on the Web</li>
+                      <li>Delivery</li>
+                      
+                    </ul>
+
+                  </div>
+                  
+          </div><br><hr>
+          <br>
+          <br>
+          <div class="logos">
+          <img src="../assets/images/facebook.png">
+          <img src="../assets/images/instagram.png">
+          <img src="../assets/images/youtube.png">
+          <img src="../assets/images/twitter.png">
+          <img src="../assets/images/pinterest.png">
+        </div>
+        <br>
+        
+        <p class="terms">Privacy Notice     |   Terms of Use     |   Do not share my Personal information     |   CA Supply chain Act     |   Accessibility     |   Cookie Preferences</p>
+        </div>
+        
+      </div>
+
+
+</body>
+</html>
 </body>
 </html>
